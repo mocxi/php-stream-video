@@ -1,0 +1,5 @@
+# AuthName "Member's Area Name"
+# AuthUserFile "E:/Project/streamvideo/phub/.htpasswd"
+# AuthType Basic
+# require valid-user
+php_value auto_prepend_file "./include/config.conf.php"

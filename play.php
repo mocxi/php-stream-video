@@ -1,5 +1,5 @@
 <?php
-include("VideoStream.php");
+include("./include/libs/VideoStream.php");
 use thirdparty\VideoStream;
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $name = $_GET['name'];
@@ -12,6 +12,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
     }
 }
-echo "You are at pHub/phub";
 
 ?>
